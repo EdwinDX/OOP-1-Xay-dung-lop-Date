@@ -1,0 +1,13 @@
+let myDate = new Date(19,5,2022);
+myDate.day = myDate.getDay1();
+myDate.month = myDate.getMonth1();
+myDate.year = myDate.getYear1();
+alert(myDate.day);
+alert(myDate.month);
+alert(myDate.year);
+myDate.day = myDate.setDay1(20);
+myDate.month = myDate.setMonth1(6);
+myDate.year = myDate.setYear1(2023);
+alert(myDate.day);
+alert(myDate.month);
+alert(myDate.year);
